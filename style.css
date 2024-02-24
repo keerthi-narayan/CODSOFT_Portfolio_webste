@@ -1,0 +1,265 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*------------header css----------*/
+#header
+{
+    height:100vh;
+    background: linear-gradient(#f3f1f199,rgba(247, 243, 243, 0.6)),url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.user-box
+{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position:absolute;
+}
+.user-box img
+{
+    border-radius: 50%;
+    width: 250px;
+    border: 2px solid #0e0d0d;
+}
+.user-box h1
+{
+    color: rgb(14, 13, 13);
+    font-weight: bold;
+    margin: 10px;
+}
+.user-box p
+{
+    color:rgb(10, 10, 10);
+}
+.scroll-btn
+{
+    bottom: 30px;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    border: 5px solid rgb(12, 12, 12);
+    padding: 10px 10px 20px;
+    border-radius: 30px;
+}
+.scroll-bar span
+{
+    border: 10px solid #141313;
+    font-size: 10px;
+    border-radius: 30px;
+}
+.scroll-bar
+{
+    animation: mover is infinite alternate; 
+}
+@keyframes mover 
+{
+    0%{transform: translateY(0);}
+    100%{transform: translateY(10px);}
+}
+.profile-img
+{
+    height: 400px;
+}
+.nav-bar
+{
+    top:0;
+    position: sticky;
+    z-index: 2;
+    
+}
+.nav-bar 
+{
+    background-color: #000;
+
+}
+.navbar-brand img
+{
+    height: 50px;
+}
+.nav-bar .fa-bars
+{
+    font-size: 35px;
+    color:#fff;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+.navbar-nav
+{
+    float:right;
+    text-align: right;
+}
+.nav-link
+{
+    color:#fff !important;
+}
+.skills-bar 
+{
+    margin-bottom: 6px;
+   font-weight: 600; 
+}
+.progress
+{
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+.progress-bar
+{
+    border-radius: 16px;
+    background: #141313 !important;
+}
+/*---------RESUME-------------*/
+.Resume
+{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: #f9f9f9;
+}
+.Resume h3
+{
+    margin-bottom: 50px;
+}
+.timeline
+{
+    list-style-type: none;
+    position: relative;
+}
+.timeline:before
+{
+    content: ' ';
+    background: #000;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 1;
+}
+.timeline li
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color:#8b8888;
+}
+.timeline li h4
+{
+    background-color: #f7f2f2;
+    padding: 5px 0 5px 20px;
+    column-rule-color: #fff;
+    font-size: 15px;
+    
+
+}
+
+.contact
+{
+    padding-top: 70px;
+    padding-left: 280px;
+    padding-right: 280px;
+    background: linear-gradient(#f3f1f199,rgba(247, 243, 243, 0.6)),url(images/background\ 2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+.contact .row
+{
+    padding: 30px 0;
+    font-size: 22px;
+}
+.contact .col-md-5 .fa
+{
+    padding: 10px;
+    font-size: 40px;
+}
+.contact .btn 
+{
+    padding:10px 25px 10px 25px;
+    margin: 5px;
+    border-radius: 38px;
+    border:2px solid #000 ;
+    background: #000;
+    
+}
+.contact .btn:focus 
+{
+    box-shadow:none !important;
+}
+.contact .btn:hover 
+{
+    border:2px solid #000 !important;
+    background: #000 !important;
+    transition: 0.6s;
+}
+.contact .btn .fa
+{
+    margin-right: 10px;
+}
+
+
+
+#projects
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.project
+{
+    width: 300px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+    margin: 10px;
+    text-align: center;
+}
+.project-img
+{
+    width: 150px;
+    height: 300px;
+    object-fit: cover;
+    margin: 5px;
+    text-align: center;
+}
+.project h2
+{
+    margin-top: 10px;
+    text-align: center;
+
+
+}
+.project p
+{
+    margin-bottom: 0; 
+    text-align: center;
+}
+.myproj
+{
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}
+.col-md-4{
+    text-size-adjust: 2px;
+}
+.footer {
+    padding: 5px;
+    background-color: #000;
+    color: #f8f1f1;
+    padding-left: 370px;
+    padding-right: 370px;
+}
+.con{
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+
